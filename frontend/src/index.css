@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/Product-Sans/Product Sans Regular.ttf') format('truetype');
+  font-weight: normal;  /* 400 */
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/Product-Sans/Product Sans Bold.ttf') format('truetype');
+  font-weight: bold;  /* 700 */
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/Product-Sans/Product Sans Italic.ttf') format('truetype');
+  font-weight: normal;  /* 400 */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('./assets/fonts/Product-Sans/Product Sans Bold Italic.ttf') format('truetype');
+  font-weight: bold;  /* 700 */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/HelveticaFonts/Helvetica.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lineration Mono';
+  src: url('./assets/fonts/LiberationMono/LiberationMono-Regular.ttf') format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Liberation Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
